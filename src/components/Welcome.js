@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Banner from './Banner'
-import welcomeImage from '../images/group.jpg'
 import portraitImage from '../images/portrait.jpg'
 import Card from './Card'
-const Welcome = () => {
+const Welcome = ({ img }) => {
   return (
     <>
       <Banner
-      imageURL={welcomeImage}
+      imageURL={img}
       description="Helping You Increase Trust, Intimacy, and Connection in Your Relationship"
       cta="CTA"
       position="50% 34%"

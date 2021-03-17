@@ -1,12 +1,11 @@
 import React from 'react'
 import Banner from './Banner'
-import welcomeImage from '../images/group.jpg'
 
-const GroupTherapy = () => {
+const GroupTherapy = ({ img }) => {
   return (
     <div>
       <Banner
-      imageURL={welcomeImage}
+      imageURL={img}
       description="Helping You Increase Trust, Intimacy, and Connection in Your Relationship"
       cta="CTA"
       position="50% 34%"

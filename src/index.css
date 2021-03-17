@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Spartan:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Spartan:wght@200;300;400;600&display=swap");
 
 :root {
   --theme-color: 4, 138, 129;
@@ -11,8 +11,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: rgba(var(--black), 1);
   font-family: "Spartan", sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
 }
-
+strong {
+  font-weight: 600;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -198,4 +202,22 @@ main {
 
 .card p {
   max-width: 20ch;
+}
+
+/* Footer Styling */
+footer {
+  background-color: rgba(var(--theme-color), 1);
+  padding: 1.5rem;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+.info-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.footer-email {
+  margin-top: 0.5rem;
 }
