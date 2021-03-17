@@ -4,6 +4,8 @@
   --theme-color: 4, 138, 129;
   --accent-color: 255, 200, 0;
   --black: 34, 34, 34;
+  --white: 245, 245, 245;
+  --dark: 48, 56, 67;
 }
 body {
   margin: 0;
@@ -13,6 +15,7 @@ body {
   font-family: "Spartan", sans-serif;
   font-weight: 300;
   line-height: 1.7;
+  background-color: rgba(var(--white), 1);
 }
 strong {
   font-weight: 600;
@@ -87,7 +90,7 @@ nav a + a {
   justify-items: center;
   text-align: center;
   align-content: center;
-  color: white;
+  color: rgba(var(--white), 1);
 }
 
 .banner-description {
@@ -96,7 +99,7 @@ nav a + a {
 }
 .button {
   background-color: rgba(var(--accent-color), 1);
-  color: white;
+  color: rgba(var(--white), 1);
   display: block;
   width: max-content;
   padding: 0.8rem 3rem;
@@ -182,7 +185,7 @@ main {
 .card {
   flex-basis: 250px;
   background-color: rgba(var(--theme-color), 1);
-  color: white;
+  color: rgba(var(--white), 1);
   height: 100%;
   padding: 0.5rem 1rem;
   display: grid;
@@ -206,9 +209,9 @@ main {
 
 /* Footer Styling */
 footer {
-  background-color: rgba(var(--theme-color), 1);
+  background-color: rgba(var(--dark), 1);
   padding: 1.5rem;
-  color: white;
+  color: rgba(var(--white), 1);
   display: grid;
   place-content: center;
 }
