@@ -5,7 +5,7 @@ const Card = ({title,subtitle,description,cta}) => {
     <div className="card">
       <h2 className="card-subtitle">{subtitle}</h2>
       <h1 className="card-title">{title}</h1>
-      <p >{description}</p>
+      <p className="card-description">{description}</p>
       <Link className="button" to="/contact">{cta}</Link>
     </div>
     

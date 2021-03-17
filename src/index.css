@@ -189,6 +189,7 @@ main {
   height: 100%;
   padding: 0.5rem 1rem;
   display: grid;
+  grid-template-rows: auto auto 1fr auto;
   align-content: center;
 }
 
@@ -203,8 +204,10 @@ main {
   margin-top: 0;
 }
 
-.card p {
+.card-description {
   max-width: 20ch;
+  margin: 0;
+  align-self: flex-start;
 }
 
 /* Footer Styling */

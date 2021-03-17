@@ -24,6 +24,7 @@ const GroupTherapy = ({ img }) => {
             <p>
               With the three pronged approach, we will learn how to cope with life's daily activities, manage our hurts and griefs, discuss our plans, and set and work towards our goals.
             </p>
+            
           </div>
         </section>
       </main>
