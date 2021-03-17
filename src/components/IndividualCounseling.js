@@ -1,9 +1,15 @@
 import React from 'react'
+import Banner from './Banner'
+import welcomeImage from '../images/anxiety.jpg'
 
 const IndividualCounseling = () => {
   return (
     <div>
-      <h1>Individual Counseling</h1>
+      <Banner
+      imageURL={welcomeImage}
+      description="Learn to live in the moment instead of dwelling on the past or worrying about the future. "
+      cta="CTA"
+      />
     </div>
   )
 }
