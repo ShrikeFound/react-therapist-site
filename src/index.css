@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Spartan:wght@200;300;400;600&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --theme-color: 4, 138, 129;
   --accent-color: 255, 200, 0;
+  --accent-color-hover: 255, 205, 10;
   --black: 34, 34, 34;
   --white: 245, 245, 245;
   --dark: 48, 56, 67;
+  --secondary-color: 152, 76, 106;
 }
 body {
   margin: 0;
@@ -105,7 +111,13 @@ nav a + a {
   padding: 0.8rem 3rem;
   text-decoration: none;
   font-weight: 600;
+  transition: all ease-in-out 240ms;
 }
+
+.button:hover {
+  background-color: rgba(var(--accent-color-hover), 1);
+}
+
 .button.secondary {
   color: inherit;
   background-color: inherit;
@@ -178,19 +190,17 @@ main {
 .card-gallery {
   padding-top: 3rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
 .card {
-  flex-basis: 250px;
   background-color: rgba(var(--theme-color), 1);
   color: rgba(var(--white), 1);
-  height: 100%;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
   align-content: center;
+  justify-items: center;
 }
 
 .card-subtitle {
@@ -205,15 +215,29 @@ main {
 }
 
 .card-description {
-  max-width: 20ch;
+  max-width: 23ch;
   margin: 0;
   align-self: flex-start;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+  .card-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card {
+    justify-items: flex-start;
+  }
+  .card-description {
+    text-align: left;
+  }
 }
 
 /* Footer Styling */
 footer {
   background-color: rgba(var(--dark), 1);
-  padding: 1.5rem;
+  padding: 3.5rem;
   color: rgba(var(--white), 1);
   display: grid;
   place-content: center;
@@ -221,9 +245,36 @@ footer {
 .info-list {
   list-style: none;
   display: flex;
+  /* flex-direction: column; */
   align-items: center;
   gap: 3rem;
+  padding: 0;
+  margin: 0;
 }
 .footer-email {
   margin-top: 0.5rem;
+}
+
+.prongs-svg {
+  border: 2px solid black;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.prongs-svg .prong {
+  transform-origin: center;
+}
+.prong-1 {
+  fill: blue;
+  transform: translate(-50px, -50px);
+}
+
+.prongs-svg .prong-2 {
+  fill: red;
+  transform: translate(50px, -50px);
+}
+
+.prong-3 {
+  fill: yellow;
+  transform: translate(0px, 25px);
 }
