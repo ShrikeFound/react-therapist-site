@@ -165,16 +165,20 @@ main {
   flex-wrap: wrap;
   gap: 3rem;
   justify-content: center;
-  align-items: center;
 }
-.column {
-  flex-basis: 300px;
-  max-width: max-content;
-  flex-grow: 1;
+.text-column {
+  /* flex-basis: 400px; */
+  /* max-width: max-content; */
+  /* flex-grow: 1; */
 }
 
-.column .button {
+.text-column .button {
   margin: 0 auto;
+}
+
+.approach-column {
+  flex-basis: 400px;
+  flex-shrink: 2;
 }
 
 .frame img {
@@ -183,8 +187,10 @@ main {
 }
 .frame {
   width: 100%;
+  flex-basis: 300px;
   flex-grow: 0;
   flex-shrink: 1.5;
+  align-self: center;
 }
 
 .card-gallery {
@@ -255,26 +261,13 @@ footer {
   margin-top: 0.5rem;
 }
 
-.prongs-svg {
-  border: 2px solid black;
-  height: 100%;
+.column {
+  /* border: 2px solid green; */
+  flex-basis: 500px;
+}
+
+.approaches-svg {
+  border: 2px solid red;
   width: 100%;
-  display: block;
-}
-.prongs-svg .prong {
-  transform-origin: center;
-}
-.prong-1 {
-  fill: blue;
-  transform: translate(-50px, -50px);
-}
-
-.prongs-svg .prong-2 {
-  fill: red;
-  transform: translate(50px, -50px);
-}
-
-.prong-3 {
-  fill: yellow;
-  transform: translate(0px, 25px);
+  height: 100%;
 }

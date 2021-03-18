@@ -31,13 +31,12 @@ const GroupTherapy = ({ img }) => {
               With the three pronged approach, we will learn how to cope with life's daily activities, manage our hurts and griefs, discuss our plans, and set and work towards our goals.
             </p>
           </div>
-          <div className="column">
-            <svg className="prongs-svg" viewBox="-200 -200 400 400" fill="black">
-              <polygon className="prong prong-1" points=" 0,-50 -50,0 0,50 50,0" />
-              <polygon className="prong prong-2" points=" 0,-50 -50,0 0,50 50,0" />
-              <polygon className="prong prong-3" points=" 0,-50 -50,0 0,50 50,0"/>
-              
-            </svg>
+          <div className="approach-column">
+            <svg className="approaches-svg" viewBox="0 0 200 200">
+              <polygon fill="red"></polygon>
+
+
+           </svg>
           </div>
         </section>
       </main>
