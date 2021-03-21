@@ -185,6 +185,7 @@ main {
 .frame img {
   max-width: 100%;
   height: auto;
+  box-shadow: 0 0 0 7px rgba(var(--theme-color), 0.2);
 }
 .frame {
   width: 100%;
