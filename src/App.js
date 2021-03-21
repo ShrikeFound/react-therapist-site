@@ -6,7 +6,7 @@ import Contact from './components/Contact.js'
 import Header from './components/Header.js'
 
 import welcomeImage from './images/group.jpg'
-import individualImage from './images/anxiety.jpg'
+import individualImage from './images/smiling.jpg'
 import groupImage from './images/group.jpg'
 import contactImage from './images/laptop.jpg'
 import Footer from './components/Footer.js'

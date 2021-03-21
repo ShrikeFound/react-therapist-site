@@ -8,6 +8,7 @@ const IndividualCounseling = ({ img }) => {
       imageURL={img}
       description="Learn to live in the moment instead of dwelling on the past or worrying about the future. "
       cta="CTA"
+      position="50% 25%"
       />
 
       <main>

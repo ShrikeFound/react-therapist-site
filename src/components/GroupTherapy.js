@@ -1,5 +1,7 @@
 import React from 'react'
 import Banner from './Banner'
+import portraitImage from '../images/friends.jpg'
+import { Link } from 'react-router-dom'
 
 const GroupTherapy = ({ img }) => {
   return (
@@ -17,7 +19,8 @@ const GroupTherapy = ({ img }) => {
         <h1 className="title">Life Management Therapy Group</h1>
 
         <section className="row container">
-          <div className="column">
+
+          <div className="text-column">
             <p>
               I guide a stress management group based on the three pronged approach to healthcare: the cognitive approach, relaxation skills, and expression of positive into your life and negative out of your life.
             </p>
@@ -30,14 +33,13 @@ const GroupTherapy = ({ img }) => {
             <p>
               With the three pronged approach, we will learn how to cope with life's daily activities, manage our hurts and griefs, discuss our plans, and set and work towards our goals.
             </p>
+            <Link className="button secondary" to="/contact">Email Me</Link>
           </div>
-          <div className="approach-column">
-            <svg className="approaches-svg" viewBox="0 0 200 200">
-              <polygon fill="red"></polygon>
-
-
-           </svg>
+        
+           <div className="frame">
+            <img alt="pair of young men standing close and smiling for the camera" src={portraitImage}/>
           </div>
+
         </section>
       </main>
 

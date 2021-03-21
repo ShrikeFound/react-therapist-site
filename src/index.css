@@ -187,10 +187,15 @@ main {
 }
 .frame {
   width: 100%;
-  flex-basis: 300px;
+  flex-basis: 350px;
   flex-grow: 0;
   flex-shrink: 1.5;
   align-self: center;
+}
+
+.frame img {
+  border-radius: 5px;
+  /* box-shadow: 10px 10px rgba(var(--secondary-color), 1); */
 }
 
 .card-gallery {
