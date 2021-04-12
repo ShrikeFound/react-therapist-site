@@ -12,7 +12,7 @@ const Contact = ({ img }) => {
       />
       <section className="container">
         <form  className="contact-form" action="https://fieldgoal.io/f/X3qjIM" method="POST">
-          <div>
+          <div className="contact-description">
           <h1>Form Title</h1>
           <p>
               Have you ever run into the problem of creating a site with pictures given by the client, only to find later after they update their photography the original look and feel is not retained? This solution involves creating a transparent PNG overlay which can be used as a mask / frame around regular JPEG or GIF.
