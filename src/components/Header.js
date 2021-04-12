@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   const handleNavClose = () => {
-    // setIsOpen(false)
+    setIsOpen(false)
   }
 
   return (

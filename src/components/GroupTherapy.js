@@ -9,7 +9,7 @@ const GroupTherapy = ({ img }) => {
       <Banner
       imageURL={img}
       description="Helping You Increase Trust, Intimacy, and Connection in Your Relationship"
-      cta="Contact Me"
+      cta="Schedule a Session"
       position="50% 34%"
       />
 

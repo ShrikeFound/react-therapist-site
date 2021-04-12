@@ -6,8 +6,8 @@ const IndividualCounseling = ({ img }) => {
     <div>
       <Banner
       imageURL={img}
-      description="Learn to live in the moment instead of dwelling on the past or worrying about the future. "
-      cta="Contact Me"
+      description="Self care that fills you back up with what life takes out. "
+      cta="Schedule a Session"
       position="50% 25%"
       />
 
