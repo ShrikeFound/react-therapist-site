@@ -9,7 +9,7 @@ const Welcome = ({ img }) => {
       <Banner
       imageURL={img}
       description="Helping You Increase Trust, Intimacy, and Connection in Your Relationship"
-      cta="CTA"
+      cta="Schedule a Session"
       position="50% 34%"
     />
       <main>
@@ -38,7 +38,8 @@ const Welcome = ({ img }) => {
             title="Anxiety"
             subtitle="Learn to Manage"
             description="Learn to live in the moment instead of dwelling on the past or worrying about the future. "
-            cta="cta"
+            cta="Learn More"
+            to="/individual-counseling"
           />
 
           <Card
@@ -46,15 +47,17 @@ const Welcome = ({ img }) => {
             title="Depression"
             subtitle="Learn to Manage"
             description="Regain your energy, your happiness, and your life. "
-            cta="cta"
+            cta="Learn More"
+            to="/individual-counseling"
           />
 
           <Card
             className="card"
-            title="Self Esteem"
-            subtitle="Learn to Manage"
-            description="Learn to live in the moment instead of dwelling on the past or worrying about the future. "
-            cta="cta"
+            title="Life Skills"
+            subtitle="Develop and Grow"
+            description="learn how to cope with life's daily activities, manage our hurts and griefs, and work towards our goals."
+            cta="Learn More"
+            to="/group-therapy"
           />
         </section>
 

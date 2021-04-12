@@ -5,18 +5,19 @@ const Contact = ({ img }) => {
   return (
     <div>
       <Banner
-      imageURL={img}
-      description="Learn to live in the moment instead of dwelling on the past or worrying about the future. "
+        imageURL={img}
+        description="Learn to live in the moment instead of dwelling on the past or worrying about the future. "
         cta="CTA"
-        position = "30% 45%"
+        position="30% 45%"
+        hide={true}
       />
+      <main>
       <section className="container">
-        <form  className="contact-form" action="https://fieldgoal.io/f/X3qjIM" method="POST">
+        <h1 className="title">Contact Me</h1>
+        <form className="contact-form" action="https://fieldgoal.io/f/X3qjIM" method="POST">
           <div className="contact-description">
-          <h1>Form Title</h1>
-          <p>
-              Have you ever run into the problem of creating a site with pictures given by the client, only to find later after they update their photography the original look and feel is not retained? This solution involves creating a transparent PNG overlay which can be used as a mask / frame around regular JPEG or GIF.
-          </p>
+          <p>To get in touch and schedule a session, you can call or email me. You can also use the form below.</p>
+          <p>Please share any information you think is important. Please also mention whether you would like in-person or tele-health sessions. </p>
           </div>
           <div>
             <label for="email">Your Email</label>
@@ -24,12 +25,14 @@ const Contact = ({ img }) => {
             <label for="email">Your Name</label>
             <input name="Name" id="name" type="text" />
             <label for="message">Your Message</label>
-            <textarea name="message" rows="6" cols="50">Enter text here...</textarea>
+            <textarea name="message" rows="6" cols="50" placeholder="write a brief message..."></textarea>
             <button className="button" type="submit">Submit</button>
             </div>
         </form>
-      </section>
+        </section>
+        </main>
     </div>
+      
   )
 }
 

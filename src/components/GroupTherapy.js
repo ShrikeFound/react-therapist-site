@@ -9,14 +9,14 @@ const GroupTherapy = ({ img }) => {
       <Banner
       imageURL={img}
       description="Helping You Increase Trust, Intimacy, and Connection in Your Relationship"
-      cta="CTA"
+      cta="Contact Me"
       position="50% 34%"
       />
 
 
       <main>
         {/* <h2 className="subtitle">Martha S. Webb, Licensed Clinical Social Worker</h2> */}
-        <h1 className="title">Life Management Therapy Group</h1>
+        <h1 className="title">Life Management Skills</h1>
 
         <section className="row container">
 

@@ -7,7 +7,7 @@ const IndividualCounseling = ({ img }) => {
       <Banner
       imageURL={img}
       description="Learn to live in the moment instead of dwelling on the past or worrying about the future. "
-      cta="CTA"
+      cta="Contact Me"
       position="50% 25%"
       />
 
@@ -16,8 +16,8 @@ const IndividualCounseling = ({ img }) => {
 
         <section className="row container">
           <div className="column">
-          <p>No one is immune to life’s ups and downs. I am here for you when you need someone who understands, someone who believes in you. I focus on your strengths as a person, helping you to reach your full potential, even when you don’t fully believe in yourself.</p>
-          <p>I have developed what I call the “Three Pronged Approach to Self Care”. I will coach you to do self care in three categories, which are cognitive, relaxation and expression. I will help you to improve your world view, to use holistic methods to promote relaxation and guide you to release negative feelings, allowing you to become the best and happiest you.</p>
+          <p>I believe we could all use help sometimes, so I will be there to listen and empathize. I will also work as a coach to help you do self care that fills you back up with what life takes out. </p>
+          <p>I have developed what I call the three pronged approach to self care, which is cognitive, relaxation and expression. I will educate you in terms of certain thought patterns you can change, so you will think in a way that makes you feel better. Then I will encourage relaxation techniques you will use that you choose, as we are all different in terms of what we find relaxing.  I will also encourage you to make your life what you want it to be and let go of what does not serve you. </p>
           </div>
         </section>
       </main>

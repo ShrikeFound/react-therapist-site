@@ -6,16 +6,17 @@ const Footer = () => {
       <ul className="info-list">
         <li>
           <strong>Martha S. Webb</strong><br/>
-          5755 Vinley Place<br />
-          San Diego, CA 92120
+          4025 Camino del Rio<br />
+          Suite #300<br/>
+          San Diego, CA 92108
         </li>
         <li>
           <div><strong>Phone Number</strong><br/>
-          (555)555-555 <br />
+          (619) 542-7727 <br />
           </div>
           <div className="footer-email">
             <strong>Email</strong><br />
-            martha.webb@therapy.com
+            mswbb1@yahoo.com
           </div>
         </li>
       </ul>
