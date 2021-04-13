@@ -14,7 +14,7 @@ const Welcome = ({ img }) => {
     />
       <main>
 
-        <h2 className="subtitle">Martha S. Webb, Licensed Clinical Social Worker</h2>
+        <h2 className="subtitle">Martha Webb, Licensed Clinical Social Worker</h2>
         <h1 className="title">We all need a little help at times.</h1>
 
         <section className="row container">
