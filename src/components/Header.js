@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import { Link,useLocation } from 'react-router-dom'
 const Header = () => {
   const { pathname } = useLocation();
@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className="container">
-      <Link className="brand" to="/"><span>Martha S. Webb</span> Psychotherapy</Link>
+      <Link className="brand" to="/"><span>Martha Webb, LCSW</span> Psychotherapy</Link>
       <div className="nav-toggle" onClick = {handleNavToggle}>
         <div className="line line-1"></div>
         <div className="line line-2"></div>

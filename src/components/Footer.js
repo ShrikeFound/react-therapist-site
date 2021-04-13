@@ -6,7 +6,7 @@ const Footer = () => {
       <ul className="info-list">
         <li>
           <strong>Martha S. Webb</strong><br/>
-          4025 Camino del Rio<br />
+          4025 Camino del Rio S<br />
           Suite #300<br/>
           San Diego, CA 92108
         </li>
