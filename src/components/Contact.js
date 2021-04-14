@@ -16,7 +16,7 @@ const Contact = ({ img }) => {
           <h1 className="title">Contact Me</h1>
           <div className="contact-description text-container">
           <p>Please give me a call at (619) 542-7727 for a free phone consultation. You can also reach me by email at mswbb1@yahoo.com.</p>
-          <p>Please share any information you think is important. Please also mention whether you would like in-person or tele-health sessions. </p>
+          <p>Please share any information you think is important. Please also mention whether you would like in-person or telehealth sessions. </p>
           </div>
         {/* <form className="contact-form" action="https://fieldgoal.io/f/X3qjIM" method="POST">
           <div className="contact-description">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from './Banner'
-import portraitImage from '../images/friends.jpg'
+import portraitImage from '../images/group-therapy.jpg'
 import { Link } from 'react-router-dom'
 
 const GroupTherapy = ({ img }) => {
@@ -20,15 +20,9 @@ const GroupTherapy = ({ img }) => {
 
         <section className="row container">
 
-          <div className="text-column">
+          <div className="text-column group-therapy">
             <p>
               I guide a stress management group based on the three pronged approach to healthcare: the cognitive approach, relaxation skills, and expression of positive into your life and negative out of your life.
-            </p>
-            <p>
-              With the three pronged approach, we will learn how to cope with life's daily activities, manage our hurts and griefs, discuss our plans, and set and work towards our goals.
-            </p>
-            <p>
-              With the three pronged approach, we will learn how to cope with life's daily activities, manage our hurts and griefs, discuss our plans, and set and work towards our goals.
             </p>
             <p>
               With the three pronged approach, we will learn how to cope with life's daily activities, manage our hurts and griefs, discuss our plans, and set and work towards our goals.

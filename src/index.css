@@ -251,10 +251,12 @@ main {
   gap: 3rem;
   justify-content: center;
 }
-.text-column {
-  /* flex-basis: 400px; */
-  /* max-width: max-content; */
-  /* flex-grow: 1; */
+.text-column.group-therapy {
+  display: grid;
+  align-content: center;
+}
+
+.welcome {
 }
 
 .text-column .button {
@@ -270,7 +272,15 @@ main {
   max-width: 100%;
   height: auto;
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+  max-height: 400px;
+  display: block;
+  margin: 0 auto;
 }
+
+.frame.small img {
+  max-height: 300px;
+}
+
 .frame {
   width: 100%;
   flex-basis: 350px;
@@ -282,6 +292,17 @@ main {
 .frame img {
   border-radius: 5px;
   /* box-shadow: 10px 10px rgba(var(--secondary-color), 1); */
+}
+
+@media only screen and (min-width: 650px) {
+  .welcome.frame {
+    float: right;
+    width: initial;
+    margin: 0 0 2rem 2rem;
+  }
+  .container.welcome {
+    width: max-content;
+  }
 }
 
 .card-gallery {

@@ -17,9 +17,9 @@ const Welcome = ({ img }) => {
         <h2 className="subtitle">Martha Webb, Licensed Clinical Social Worker</h2>
         <h1 className="title">We all need a little help at times.</h1>
 
-        <section className="row container">
+        <section className="container welcome">
 
-          <div className="frame">
+          <div className="frame small welcome">
             <img alt="portrait" src={portraitImage}/>
           </div>
 
