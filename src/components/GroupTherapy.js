@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from './Banner'
-import portraitImage from '../images/door.jpg'
+import portraitImage from '../images/sunset.jpg'
 import { Link } from 'react-router-dom'
 
 const GroupTherapy = ({ img }) => {
@@ -22,16 +22,16 @@ const GroupTherapy = ({ img }) => {
 
           <div className="text-column group-therapy">
             <p>
-              I guide a stress management group based on the three pronged approach to healthcare: the cognitive approach, relaxation skills, and expression of positive into your life and negative out of your life.
+              I facilitate a stress management group based on the three pronged approach to self care: the <b>cognitive</b> approach, <b>relaxation</b> skills, and <b>expression</b> of positive into your life and negative out of your life.
             </p>
             <p>
-              With the three pronged approach, we will learn how to cope with life's daily activities, manage our hurts and griefs, discuss our plans, and set and work towards our goals.
+              With the three pronged approach, we will learn how to cope with life's daily challenges, manage our hurts and griefs, discuss your plans, and set and work towards your goals.
             </p>
             <Link className="button secondary" to="/contact">Email Me</Link>
           </div>
         
            <div className="frame">
-            <img alt="pair of young men standing close and smiling for the camera" src={portraitImage}/>
+            <img alt="six people on a mountain in front of a sunset raising their hands in a peace sign" src={portraitImage}/>
           </div>
 
         </section>
