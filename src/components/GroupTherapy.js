@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from './Banner'
-import portraitImage from '../images/group-therapy.jpg'
+import portraitImage from '../images/door.jpg'
 import { Link } from 'react-router-dom'
 
 const GroupTherapy = ({ img }) => {
