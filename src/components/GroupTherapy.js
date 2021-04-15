@@ -25,7 +25,7 @@ const GroupTherapy = ({ img }) => {
               I facilitate a stress management group based on the three pronged approach to self care: the <b>cognitive</b> approach, <b>relaxation</b> skills, and <b>expression</b> of positive into your life and negative out of your life.
             </p>
             <p>
-              With the three pronged approach, we will learn how to cope with life's daily challenges, manage our hurts and griefs, discuss your plans, and set and work towards your goals.
+              Utilizing the three pronged approach in the group you will learn to cope with challenges, manage your feelings, as well as make life goals. The group’s  support and encouragement will help you achieve them as well. 
             </p>
             <Link className="button secondary" to="/contact">Email Me</Link>
           </div>
